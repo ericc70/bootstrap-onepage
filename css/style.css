@@ -22,5 +22,6 @@ header p{
     
 }
 .h-header{
-    min-height: 600px;
+    height: 500px;
+    background-color: blue;
 }

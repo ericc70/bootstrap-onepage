@@ -1,5 +1,53 @@
+/** font --*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 /** header **/
 
-header{
- background-color:#909090;
+header .container{
+
+ background-image: url(../media/header.jpg);
+ height: 670px;
+ width: auto;
+ background-position: center;
+ background-size: cover;
+}
+header h1{
+   
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size:2.5rem;
+}
+header p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1rem;
+    
+}
+.h-header{
+    height: 500px;
+    background-color: blue;
+}
+
+
+
+/* <!-- Professional skills --> */
+.profesional-skills{
+    min-height: 570px;
+}
+.color1{
+    background-color:red;
+}
+
+.prof-skill-right{
+   height:300px;
+    min-height: 100%;
+    background-position: center;
+    background-image: url(../media/skill2.jpg);
+    background-size: cover;
+ 
+}
+.prof-skill-left{
+  
+   background-position: center;
+    background-image: url(../media/skill1.jpg);
+    background-size: cover;
+ 
 }

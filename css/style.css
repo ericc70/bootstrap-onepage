@@ -37,7 +37,7 @@ header p{
 }
 
 .prof-skill-right{
-   height:300px;
+   min-height:300px;
     min-height: 100%;
     background-position: center;
     background-image: url(../media/skill2.jpg);

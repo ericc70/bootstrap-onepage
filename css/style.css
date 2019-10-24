@@ -25,3 +25,29 @@ header p{
     height: 500px;
     background-color: blue;
 }
+
+
+
+/* <!-- Professional skills --> */
+.profesional-skills{
+    min-height: 570px;
+}
+.color1{
+    background-color:red;
+}
+
+.prof-skill-right{
+   height:300px;
+    min-height: 100%;
+    background-position: center;
+    background-image: url(../media/skill2.jpg);
+    background-size: cover;
+ 
+}
+.prof-skill-left{
+  
+   background-position: center;
+    background-image: url(../media/skill1.jpg);
+    background-size: cover;
+ 
+}

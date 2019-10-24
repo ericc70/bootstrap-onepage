@@ -1,5 +1,26 @@
+/** font --*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 /** header **/
 
-header{
- background-color:#909090;
+header .container{
+
+ background-image: url(../media/header.jpg);
+ height: 670px;
+ width: auto;
+ background-position: center;
+ background-size: cover;
+}
+header h1{
+   
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size:2.5rem;
+}
+header p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1rem;
+    
+}
+.h-header{
+    min-height: 600px;
 }

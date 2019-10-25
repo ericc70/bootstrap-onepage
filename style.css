@@ -1,0 +1,25 @@
+body {
+
+}
+
+html:root{
+    --blue: #10c9c3;
+    --grey:  #787878;
+}
+
+.text-center-color{
+    color: var(--grey);
+}
+
+.projects{
+    background-color: var(--blue);
+    color :white;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.image{
+    width: 340px;
+    height: 340px;
+    border: 5px solid red;
+}

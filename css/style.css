@@ -32,7 +32,7 @@ header p{
     font-size:1rem;
     
 }
-.h-header{
+.height-header-p{
     height: 500px;
     background-color: blue;
 }
@@ -94,4 +94,21 @@ header p{
     font-family: 'Nunito Sans', sans-serif;
     color : var(--grey);
     font-size: 0.95 rem;;
+}
+
+
+/* -------------------------- */
+.brands{
+    min-height: 200px;
+
+}
+.brands ul{
+    list-style: none;
+    min-height: 200px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }

@@ -53,8 +53,8 @@ header p{
 .profesional-skills{
     height: 570px;
 }
-.color1{
-    background-color:red;
+.color-progress{
+    background-color:var(--blue);
 }
 
 .prof-skill-right{
@@ -71,4 +71,21 @@ header p{
     background-image: url(../media/skill1.jpg);
     background-size: cover;
  
+}
+
+/* ----- services section ----*/
+.services{
+    background-color: #f5f5f5;
+}
+
+.services p, .services span{
+    text-align: center;
+}
+.services p:nth-child(2){
+    font-weight: bold;
+}
+.services p:nth-child(3){
+    font-family: 'Nunito Sans', sans-serif;
+    color : var(--grey);
+    font-size: 0.95 rem;;
 }

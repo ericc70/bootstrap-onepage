@@ -79,11 +79,20 @@ header p{
 }
 /* section pictures  */
 .image{
-    width: 340px;
-    height: 340px; 
+    width:auto;
+    height: auto; 
     
 }
+/* .col-img {
+	width: 25%;
+	height: auto;
+	float: left;
+	margin: 0;
+} */
 
+.col-img img {
+	width: 100%;
+}
 /* ----- services section ----*/
 .services{
     background-color: #f5f5f5;

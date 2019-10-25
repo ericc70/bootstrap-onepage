@@ -66,14 +66,19 @@ header p{
    min-height:570px;
    
     background-position: center;
-    background-image: url(../media/skill2.jpg);
+    /* background-image: url(../media/Technical.jpg); */
     background-size: cover;
  
+}
+
+.technical{
+    width: 700px;
+    height: 554px;
 }
 .prof-skill-left{
   
    background-position: center;
-    background-image: url(../media/skill1.jpg);
+    /* background-image: url(../media/skill1.jpg); */
     background-size: cover;
  
 }
@@ -113,3 +118,9 @@ header p{
 }
 
 
+/*-----------------Carousel--------------*/
+
+.carousel{
+    background-color: var(--blue) ;
+    color: var(--light);
+}

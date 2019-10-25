@@ -72,3 +72,10 @@ header p{
     background-size: cover;
  
 }
+/* section pictures  */
+.image{
+    width: 340px;
+    height: 340px; 
+    
+   
+}

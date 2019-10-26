@@ -126,3 +126,13 @@ header p{
     background-color: var(--blue) ;
     color: var(--light);
 }
+
+
+/* ----- footer ---*/
+footer{
+    background-color: black;
+    color:#fff;
+}
+footer li{
+    list-style: none;
+}

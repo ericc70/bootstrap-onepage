@@ -8,7 +8,9 @@ html:root{
     --light: rgb(211, 206, 206);
 }
 
-
+.container{
+    max-width: 90%;
+}
 
 /** font --*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
@@ -129,8 +131,13 @@ header p{
 
 
 /* ----- footer ---*/
-footer{
+.bg-black{
     background-color: black;
+    /* color:#fff;
+    padding:0;
+    margin:0; */
+}
+.f-color-white{
     color:#fff;
 }
 footer li{

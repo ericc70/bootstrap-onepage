@@ -13,7 +13,9 @@ html:root{
 .container{
     max-width: 80%;
 }
-
+.row{
+    margin-right: 0;
+}
 /** font --*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
@@ -70,28 +72,32 @@ header p{
 /* <!-- Professional skills --> */
 
 .profesional-skills{
-    height: 570px;
+    height: 500px;
 }
 .color-progress{
     background-color:var(--blue);
 }
 
 .prof-skill-right{
-   min-height:570px;
-   background-position: center;
-   background-size: cover;
+   min-height:500px;
+   /* margin-right: 0; */
+    background-position: center;
+    background-image: url('../media/Technical.png');
+    background-size: cover;
+    
  
 }
 
-.technical{
+/* .technical{
     width: 700px;
     height: 554px;
-}
+} */
+
 .prof-skill-left{
-  
-   background-position: center;
-   background-size: cover;
- }
+    height: 500px;
+    vertical-align: center;
+}
+
 
 /* section pictures  */
 
@@ -159,4 +165,13 @@ header p{
 
 footer li{
     list-style: none;
+}
+/* bouton form */
+
+.btn{
+    border-radius: 0;
+}
+.btn-blue{
+    background-color: var(--blue);
+    color:#fff;
 }

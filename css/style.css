@@ -12,7 +12,9 @@ html:root{
 .container{
     max-width: 80%;
 }
-
+.row{
+    margin-right: 0;
+}
 /** font --*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
@@ -68,10 +70,11 @@ header p{
 
 .prof-skill-right{
    min-height:500px;
-   
+   /* margin-right: 0; */
     background-position: center;
     background-image: url('../media/Technical.png');
     background-size: cover;
+    
  
 }
 
@@ -92,7 +95,11 @@ header p{
 
 /* section pictures  */
 
-
+.pix:hover{
+    opacity:0.5;
+    background-color: black;
+    cursor: url(../media/eye.png),pointer;
+}
 
 .image{
     width:100%;

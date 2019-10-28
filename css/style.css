@@ -65,10 +65,10 @@ header p{
 }
 
 .prof-skill-right{
-   min-height:570px;
+   min-height:500px;
    
     background-position: center;
-    /* background-image: url(../media/Technical.jpg); */
+    background-image: url('../media/Technical.png');
     background-size: cover;
  
 }
@@ -88,8 +88,7 @@ header p{
 .image{
     width:100%;
     height: auto; 
-    /* max-width: 500px;
-    max-height: 500px; */
+   
 }
 
 

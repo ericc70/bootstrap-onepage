@@ -98,7 +98,11 @@ header p{
 
 /* section pictures  */
 
-
+.pix:hover{
+    opacity:0.5;
+    background-color: black;
+    cursor: url(../media/eye.png),pointer;
+}
 
 .image{
     width:100%;

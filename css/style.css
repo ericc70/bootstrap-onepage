@@ -66,16 +66,18 @@ header p{
 /* <!-- Professional skills --> */
 
 .profesional-skills{
-    height: 570px;
+    height: 500px;
 }
 .color-progress{
     background-color:var(--blue);
 }
 
 .prof-skill-right{
-   min-height:570px;
-   background-position: center;
-   background-size: cover;
+   min-height:500px;
+   
+    background-position: center;
+    background-image: url('../media/Technical.png');
+    background-size: cover;
  
 }
 
@@ -83,11 +85,16 @@ header p{
     width: 700px;
     height: 554px;
 }
-.prof-skill-left{
+
+/* .prof-skill-left{
   
    background-position: center;
    background-size: cover;
  }
+    /* background-image: url(../media/skill1.jpg); */
+    /* background-size: cover;
+ } */ 
+
 
 /* section pictures  */
 
@@ -151,4 +158,13 @@ header p{
 
 footer li{
     list-style: none;
+}
+/* bouton form */
+
+.btn{
+    border-radius: 0;
+}
+.btn-blue{
+    background-color: var(--blue);
+    color:#fff;
 }

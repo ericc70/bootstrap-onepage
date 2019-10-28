@@ -83,14 +83,10 @@ header p{
     height: 554px;
 } */
 
-/* .prof-skill-left{
-  
-   background-position: center;
-   background-size: cover;
- }
-    /* background-image: url(../media/skill1.jpg); */
-    /* background-size: cover;
- } */ 
+.prof-skill-left{
+    height: 500px;
+    vertical-align: center;
+}
 
 
 /* section pictures  */

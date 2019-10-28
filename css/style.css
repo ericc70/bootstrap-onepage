@@ -25,11 +25,10 @@ header .container{
 
 }
 
-.active{
-
-    color: var(--blue);
-
-}
+.nav-link:hover{
+        
+        color: var(--blue)! important;
+        }
 
 header h1{
    

@@ -162,7 +162,9 @@ header p{
 .f-color-white{
     color:#fff;
 }
-
+.f-color-grey{
+    color:var(--grey);
+}
 footer li{
     list-style: none;
 }
@@ -185,7 +187,12 @@ footer li{
 .font-f-nunito{
 font-family: 'Nunito Sans', sans-serif;
 }
-
+.f-size-1{
+    font-size: 1rem;
+}
+.f-size-1-2{
+    font-size: 1.2rem;
+}
 /******** Media-queries********/
 
 @media (min-width: 1199px) {

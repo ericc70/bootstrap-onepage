@@ -175,3 +175,33 @@ footer li{
     background-color: var(--blue);
     color:#fff;
 }
+
+
+/******** Media-queries********/
+
+@media (min-width: 1199px) {
+.min-height-video-resp{
+    min-height: 600px !important;
+    } 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+.min-height-video-resp{
+    min-height: 550px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px){
+.min-height-video-resp{
+    min-height: 400px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px){
+
+.min-height{
+
+min-height: 300px !important;
+    }
+}

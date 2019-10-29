@@ -177,3 +177,12 @@ footer li{
     color:#fff;
 }
 
+/* ----- font ----*/
+
+.font-f-montserrat-med{
+
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+.font-f-nunito{
+font-family: 'Nunito Sans', sans-serif;
+}

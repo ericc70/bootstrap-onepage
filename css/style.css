@@ -39,12 +39,12 @@ header h1{
 }
 header p{
     font-family: 'Nunito Sans', sans-serif;
-    font-size:1rem;
+    font-size:1.5rem;
     
 }
 .height-header-p{
     height: 500px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 /*********/
 
@@ -119,10 +119,10 @@ header p{
 .services{
     background-color: #f5f5f5;
 }
-
+/*
 .services p, .services span{
     text-align: center;
-}
+}*/
 .services p:nth-child(2){
     font-weight: bold;
 }
@@ -162,7 +162,9 @@ header p{
 .f-color-white{
     color:#fff;
 }
-
+.f-color-grey{
+    color:var(--grey);
+}
 footer li{
     list-style: none;
 }
@@ -176,7 +178,21 @@ footer li{
     color:#fff;
 }
 
+/* ----- font ----*/
 
+.font-f-montserrat-med{
+
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+.font-f-nunito{
+font-family: 'Nunito Sans', sans-serif;
+}
+.f-size-1{
+    font-size: 1rem;
+}
+.f-size-1-2{
+    font-size: 1.2rem;
+}
 /******** Media-queries********/
 
 @media (min-width: 1199px) {
@@ -200,7 +216,7 @@ footer li{
 
 @media (min-width: 576px) and (max-width: 767.99px){
 
-.min-height{
+.min-height-video-resp{
 
 min-height: 300px !important;
     }

@@ -135,7 +135,7 @@ header p{
 .services p:nth-child(3){
     font-family: 'Nunito Sans', sans-serif;
     color : var(--grey);
-    font-size: 0.95 rem;;
+    font-size: 0.95 rem;
 }
 
 

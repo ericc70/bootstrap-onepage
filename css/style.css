@@ -205,3 +205,12 @@ footer li{
 min-height: 300px !important;
     }
 }
+/* ----- font ----*/
+
+.font-f-montserrat-med{
+
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+.font-f-nunito{
+font-family: 'Nunito Sans', sans-serif;
+}

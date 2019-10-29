@@ -57,7 +57,7 @@ header p{
 
 .we-develop{
 
-    color: var(--light);
+    color: var(--white);
 }
 
 /*******/
@@ -204,13 +204,13 @@ font-family: 'Nunito Sans', sans-serif;
 
 @media (min-width: 1199px) {
 .min-height-video-resp{
-    
+
     min-height: 600px !important;
     } 
-.we-develop{
+/* .we-develop{
 
     color: var(--white) !important;
-    }
+    } */
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
@@ -219,10 +219,10 @@ font-family: 'Nunito Sans', sans-serif;
 
     min-height: 550px !important;
     }
-.we-develop{
+/* .we-develop{
 
     color: var(--white) !important;
-    }
+    } */
 }
 
 @media (min-width: 768px) and (max-width: 991.99px){
@@ -230,10 +230,10 @@ font-family: 'Nunito Sans', sans-serif;
 
     min-height: 400px !important;
     }
-.we-develop{
+/* .we-develop{
 
     color: var(--white) !important;
-    }
+    } */
 }
 
 @media (min-width: 576px) and (max-width: 767.99px){
@@ -243,7 +243,7 @@ font-family: 'Nunito Sans', sans-serif;
 min-height: 300px !important;
     }
 
-.we-develop{
+/* .we-develop{
     color: var(--white) !important;
-    }
+    } */
 }
